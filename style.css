@@ -1,0 +1,49 @@
+.description {
+  text-align: left;
+}
+h1 {
+  color: black;
+  font: 40px;
+}
+img {
+  width: 400px;
+  height: 400px;
+}
+body {
+  background-color: rgb(223, 233, 240);
+}
+h2 {
+  color: black;
+  font-size: 20px;
+  font-weight: normal;
+  font-family: Georgia, 'Times New Roman', 'Times New Roman', Times, serif;
+}
+p {
+  color: black;
+  text-align: left;
+}
+/* The navigation bar */
+.nav {
+  overflow: hidden;
+  background-color: rgb(51, 130, 204);
+  position: fixed; /* Set the navbar at the top of the page */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 50%; /* Full width */
+}
+.nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+.nav a:hover {
+  background: #ddd;
+  color: black;
+}
+/* Main content */
+.main {
+  margin-top: 60px; /* Add a top margin to avoid content overlay */
+}
